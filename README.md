@@ -1,0 +1,31 @@
+# Spotify Clone Project
+
+This project is a simple Spotify clone created using HTML, CSS, and JavaScript. It aims to replicate some of the basic functionalities of the popular music streaming platform.
+
+## Features
+
+- **Music Player:** Play, pause, and skip tracks with a user-friendly music player interface.
+- **Next & Backward Song:** can play next and backward songs. 
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## How to Use
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/spotify-clone.git
+
+   
+1. Open the project in your preferred code editor.
+
+2. Run the index.html file in your web browser.
+
+3. Explore the Spotify clone and enjoy the music!
+
+## Screenshots
+<img src="">
