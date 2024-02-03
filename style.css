@@ -97,6 +97,16 @@ nav ul{
     color: white;
 }
 
+.songinfo{
+    position: absolute;
+    left: 5vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+}
+
 .icons{
     margin-top: 24px;
 }
@@ -108,6 +118,7 @@ nav ul{
 #myProgressBar{
     width: 90%;
     height: 7%;
+    cursor: pointer;
 }
 
 /* .gifsb{
