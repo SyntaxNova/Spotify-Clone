@@ -1,100 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify clone - Your Songs </title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Music</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
 <body>
     <nav>
         <ul>
-            <li class = "brand"><img src="images/logo.png" alt="Spotify"><span style="font-size: 1.4rem;">Spotify</span></li>
-            
+            <li class="brand"><img src="images/logo.png" alt="Spotify"> Spotify</li>
             <li>Home</li>
             <li>About</li>
-            <li>Contact</li>
-            
         </ul>
     </nav>
-    <div class="container">
-        <div class="songlist">
-            <h1>Best No-Copyright Songs</h1>
-            <div>
+
+    <div class="container" style="background-image: url('images/bg.png')"  >
+        <div class="songList">
+            <h2>Best of NCS - No Copyright Sounds</h2>
+            <div class="songItemContainer">
                 <div class="songItem">
-                    <img src="images/1.jpg" alt="1">
-                    <span>Starry Night Serenade</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="1">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/2.jpg" alt="1">
-                    <span>Whispering Breeze</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img class="playsongimages" src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="2">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/3.jpg" alt="1">
-                    <span>Radiant Echoes</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span>
+                    <img alt="3">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/4.jpg" alt="1">
-                    <span>Moonlit Melodies</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="4">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/5.jpg" alt="1">
-                    <span>Enchanted Harmony</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="5">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/7.jpg" alt="1">
-                    <span>Sunny Daydreams</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="6">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/8.jpg" alt="1">
-                    <span>Cosmic Rhythms</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="7">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/9.jpg" alt="1">
-                    <span>Velvet Twilight</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="8">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/6.jpg" alt="1">
-                    <span>Serendipity Sonata</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="9">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
                 <div class="songItem">
-                    <img src="images/10.jpg" alt="1">
-                    <span>Lullaby of the Meadows</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <img src="images/circle-play-regular.svg" alt="play-solid"width="30px"></span></span>
+                    <img alt="10">
+                    <span class="songName">Song</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
             </div>
         </div>
-        <div class="songbanner"></div>
+        <div class="songBanner"></div>
     </div>
 
-    <div class="Bottom">
-        
-        <input type="range" name ="range" id="myProgressBar" min="0" max="100">
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
-            <!-- fontawsomeicon -->
-            <img src="images/backward-solid.svg" alt="backward-solid"width="30px">
-            <img src="images/circle-play-regular.svg" alt="play-solid"width="30px">
-            <img src="images/forward-solid.svg" alt="forward-solid" width="30px">
-            <!-- slow icons below -->
-            <!-- <i class="fa-solid fa-backward" style="color: #B197FC;"></i>
-            <i class="fa-regular fa-circle-play fa-2xl" style="color: #B197FC;"></i>
-            <i class="fa-solid fa-forward" style="color: #B197FC;"></i> -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i> 
         </div>
-        <div class="songinfo">
-            <img src="images/playing.gif" width="42px" alt="gif" > Song Name - Artist Name
+        <div class="songInfo">
+            <img src="images/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
         </div>
     </div>
-    
-    <script src="https://kit.fontawesome.com/084fc3f7db.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/084fc3f7db.js" crossorigin="anonymous"></script>
 </body>
 </html>
