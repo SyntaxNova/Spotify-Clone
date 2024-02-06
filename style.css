@@ -72,18 +72,20 @@ nav ul{
     color: black;
 }
 
-.playsongimages{
-    
-    
+.timestamp{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
 }
+
 .songlistplay {
     cursor: pointer;
 }
 
-
 .songItem img{
-    width: 8%;
-    height: 80%;
+    width: 5%;
+    height: 50%;
     border-radius: 3px;
     margin-left: 10px;
 }

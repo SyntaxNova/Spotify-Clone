@@ -22,10 +22,25 @@ let songs = [
     {songName: "Na Jaana - Salam-e-Ishq", filePath: "music/10.mp3", coverPath: "images/10.jpg"},
 ]
 
-songItems.forEach((element, i)=>{ 
-    element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
-    element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
+songItems.forEach((element, i) => {
+    // Check if there is an image element with a tag name "img"
+    const imgElement = element.getElementsByTagName("img")[0];
+    
+    // Check if the current index is valid for the songs array
+    if (songs[i]) {
+        // Update the src attribute with the coverPath from the songs array
+        imgElement.src = songs[i].coverPath;
+
+        // Check if there is an element with the class "songName"
+        const songNameElement = element.getElementsByClassName("songName")[0];
+
+        // Update the text content with the songName from the songs array
+        songNameElement.innerText = songs[i].songName;
+    } else {
+        console.error(`No data available for index ${i} in the songs array.`);
+    }
 })
+
  
 
 // Handle play/pause click
