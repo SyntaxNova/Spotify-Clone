@@ -28,4 +28,7 @@ This project is a simple Spotify clone created using HTML, CSS, and JavaScript. 
 3. Explore the Spotify clone and enjoy the music!
 
 ## Screenshots
+Run Website : https://syntaxnova.github.io/Spotify-Clone/
+<br>
+<br>
 <img src="https://github.com/SyntaxNova/Spotify-Clone/blob/master/images/Spotify%20working.png" alt = "Screenshot">
