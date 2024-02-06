@@ -1,4 +1,4 @@
-# Spotify Clone Project
+# Front End Spotify using  HTML , CSS , JavaScript
 
 This project is a simple Spotify clone created using HTML, CSS, and JavaScript. It aims to replicate some of the basic functionalities of the popular music streaming platform.
 
