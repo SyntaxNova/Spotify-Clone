@@ -18,7 +18,7 @@ This project is a simple Spotify clone created using HTML, CSS, and JavaScript. 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   https://github.com/SyntaxNova/Spotify-Clone.git
 
    
 1. Open the project in your preferred code editor.
@@ -28,4 +28,4 @@ This project is a simple Spotify clone created using HTML, CSS, and JavaScript. 
 3. Explore the Spotify clone and enjoy the music!
 
 ## Screenshots
-<img src="https://github.com/SyntaxNova/Spotify-Clone/blob/master/images/Spotify working" alt = "Screenshot">
+<img src="https://github.com/SyntaxNova/Spotify-Clone/blob/master/images/Spotify%20working.png" alt = "Screenshot">
